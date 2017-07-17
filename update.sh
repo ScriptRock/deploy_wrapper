@@ -10,7 +10,7 @@ args=("$@")
 
 # delete tempdir if it exists
 if [[ -d ./tempdir ]]; then
-  rm -rf ./tempmdir
+  rm -rf ./tempdir
 fi
 
 # create tempdir and clone the script
